@@ -1,3 +1,483 @@
-<a href="Temporal_Transformer_for_Reward_Shaping_in_Reinforcement_Learning.pdf" target="NlrL">PDF<a>
-<a href="iValet_An_Intelligent_Parking_Lot_Management_System_and_Interface.pdf" target="iValet">PDF<a>
-<a href="google87484739e6688130.html">Other Info</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kelin Yu</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Kelin Yu is a Master student at Georgia Tech constructing learning tools for Robots.">
+    <meta name="keywords" content="Kelin Yu,Robotics,Computer Vision,Reinforcement Learning,Imitation Learning">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+    <!-- <link rel="shortcut icon" href="static/img/favicon.ico"> -->
+
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+body{margin:0;padding:0;background-color:#eee;}
+a{color:#4e613e}
+a:hover{color:#566c7f}
+#background{position:fixed;top:0;overflow:hidden;height:0}
+#wave-canvas{display:block;position:relative;top:0;left:5%;width:55%;min-width:850px;height:150px;border:0}
+#main{z-index:2;margin:0 auto;position:absolute;top:5%;width:100%;min-width:240px;text-align:center;}
+
+#main-content{background:rgba(238,238,238,0.95);padding:0;text-align:center;cursor:default;text-align:center;}
+#main-content{margin-left:6.5104167%;width:86.9791667%;}
+@media (min-width: 768px) {
+    #main-content{width:66%;min-width:668px;margin-left:50px}
+}
+@media (min-width: 1200px) {
+    #main-content{width:66%;max-width:900px;margin-left:100px}
+}
+/*#main-content {
+    width:86.9791667%;
+    margin: 0 auto;
+}
+@media (min-width: 768px) {
+    #main-content{width:66%;min-width:668px;}
+}
+@media (min-width: 1200px) {
+    #main-content{width:66%;max-width:900px;}
+}*/
+/* Avatar, Name, etc. */
+#main-content-container{margin:0 auto;padding:15px 0em 15px 0em;max-width:1080px;}
+@media (min-width: 768px) {
+    #main-content-container{padding:15px 0 15px 2em;}
+}
+#main-content-container .col-avatar{text-align:center}
+@media (min-width: 768px) {
+    #main-content-container .col-avatar{text-align:right}
+}
+#main-content-container .col-avatar .avatar{z-index:100;width:150px;height:150px;margin-top:0px;border-radius:100%;box-shadow:0 0 0 0.3em #fff;opacity:1;}
+
+#main-content-container .col-info{height:100%;align-items:center;display:-webkit-flex;height:150px}
+#main-info-container{padding-top:15px}
+#main-info-container .col-name{text-align:center}
+#main-info-container .col-name .textbox-info{display:inline-block;margin:0 auto;text-align:left}
+#main-info-container .col-name .name{margin:0;color:#566c7f;font-size:1.85em;font-family:"Source Sans Pro",Helvetica,sans-serif}
+#main-info-container .col-name .email{color:#666; font-size:14px}
+#main-info-container .col-link{text-align:center;margin:-5px 0 -25px;}
+#main-info-container .col-link ul {margin:0px auto auto;padding:0;list-style:none;text-align:center}
+#main-info-container .col-link li {display:inline-block;margin:auto;padding:0 10px;color:#ccc;line-height:10px}
+#main-info-container .col-link li a{width:45px;height:45px;color:#ccc;padding:0;font-size:45px;line-height:45px}
+#main-info-container .col-link li a:focus,
+#main-info-container .col-link li a:hover{text-decoration:none;cursor:hand}
+#main-info-container .col-link li a.border{border:1px solid #ccc;border-radius:100%;}
+#main-info-container .col-link li a.padding{padding:0px 0px;font-size:22px}
+
+/* Other */
+#main-more-container{background:#ffffff;width:100%;padding:0 30px}
+
+#main-bio-container{margin:auto;padding: 0 0em;max-width:1080px;text-align:left;padding-top:30px;max-width:1080px;font-size:1rem;line-height:1.4}
+#main-bio-container .subtitle{margin-top:30px;color:#566c7f}
+
+#main-pub-container{margin:auto;padding: 0 0em;max-width:1080px;text-align:left;padding-top:30px;max-width:1080px}
+#main-pub-container .subtitle{color:#566c7f;}
+#main-pub-container .subtitle a {font-weight:400;font-size:18px}
+#main-pub-container .subtitle a.activated {color:#333333}
+#main-pub-container .subtitle a.activated:focus,
+#main-pub-container .subtitle a.activated:hover {text-decoration:none;cursor:initial}
+#main-pub-container .move-up {margin-top:-0.3cm}
+#main-pub-container .move-up-more {margin-top:-0.6cm}
+#main-pub-container .move-down {margin-top:0.8cm}
+
+#main-pub-container .subtitle-aux {font-size:1rem}
+#main-pub-container .subtitle-aux a.activated {color:#333333}
+#main-pub-container .subtitle-aux a.activated:focus,
+#main-pub-container .subtitle-aux a.activated:hover {text-decoration:none;cursor:initial}
+#main-pub-container .subtitle-aux .note{margin-left:1em;color:#999999;text-decoration:none;font-size:14px}
+
+#main-pub-card-container{}
+#main-pub-card-container>h5{margin-bottom: 20px}
+#main-pub-card-container .pub-card{width: 100%;padding-bottom:15px;font-size:1rem}
+#main-pub-card-container .pub-card .col-l{text-align:center;padding-top:10px}
+#main-pub-card-container .pub-card .col-r{padding-top:10px}
+#main-pub-card-container .pub-card img{width:100%;margin:0 auto}
+#main-pub-card-container .pub-card-body{width:100%;background:transparent;padding-left:0px}
+#main-pub-card-container .pub-card .title{font-weight:600;font-size:1rem;margin-bottom:4px;line-height:1.4}
+#main-pub-card-container .pub-card .authors{font-weight:400;color:#666666;margin-bottom:4px;line-height:1.4}
+#main-pub-card-container .pub-card .authors a{color:#666666}
+#main-pub-card-container .pub-card .authors u{color:#333333;font-weight:600;text-decoration:none}
+#main-pub-card-container .pub-card .conference{color:#333333;font-weight:600}
+#main-pub-card-container .pub-card .note{display:block;color:#999999;text-decoration:none;font-size:12px}
+#main-pub-card-container .pub-card .info{margin-bottom:0;}
+#main-pub-card-container .row{margin:0}
+#main-pub-card-container .col-l,
+#main-pub-card-container .col-r{vertical-align:top;display:inline-block;margin:0;padding-left:0px}
+
+#footer{padding:1.5em 0 1.5em;min-width:240px;background:#f4f4f4;opacity:0.95;font-size:14px;line-height:12px;text-align:left}
+#footer .container{max-width:540px;padding:0 45px}
+#footer .row{align-items:center}
+#footer .stat{width:90px;overflow:hidden;margin:0 auto;padding:0 15px;}
+#footer .copyright{flex-grow:1;margin:5px auto 5px;text-align:left;display:block;font-size:14px;line-height:1.4}
+#footer a{color:#666666}
+#footer a:hover{color:#333333}
+
+.bold{font-weight:600}
+.highlight{color:#BB2222;font-weight:600}
+.highlight:hover{color:#BB2222;font-weight:600}
+.hide{display:none}
+    </style>
+</head>
+
+<body>
+
+<img src="static/img/background.jpeg" id="background" class="" />
+
+<div id="main">
+    <!--canvas id="wave-canvas"></canvas-->
+
+    <div id="main-content">
+        <div id="main-content-container" class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-3 col-avatar">
+                <img src="images/kelin.png" class="avatar" />
+            </div>
+            <div class="col-sm-12 col-md-9 col-info">
+                <div id="main-info-container" class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-xl-6 col-name">
+                            <div class="textbox-info">
+                                <h1 class="name"><span>Kelin Yu</span></h1>
+                                <p class="email">Email: kyu85 [at] gatech [dot] edu <br>
+                                <a href="https://scholar.google.com/citations?user=zVdZJRwAAAAJ&hl=en">Google Scholar</a>
+                                
+                                <a href="https://github.com/ColinYu1">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-more-container">
+        <div id="main-bio-container">
+            <p>
+            I am a second year Master student at <a href="https://www.cc.gatech.edu/">Gatech CS</a>, advised by
+            Prof. <a href="https://www.me.gatech.edu/faculty/zhao" target="_blank">Ye Zhao</a> and
+            Prof. <a href="https://faculty.cc.gatech.edu/~danfei/" target="_blank">Danfei Xu</a>.
+            Previously, I obtained dual bachelor's degree in Electrical Engineering and Mathematics from Georgia Tech in 2022, 
+            was a Robotics Software Engineering intern at Amazon. My research focuses on Robot Learning and Multi-Modal Perception. I'm open to discussions and collaborations, so feel free to drop me an email if you are interested.
+            <!-- </p>
+            <p>
+            My research is driven by the goal of developing autonomous embodied agents which can intelligently interact and learn in the physical world. My research has mainly focused on <a href="https://www.youtube.com/watch?v=As93L2pwR-E">implicit learning</a> through <a href="https://energy-based-model.github.io/">energy-based models</a>. My work has focused on how such an implicit learning learning procedure enables <a href="https://energy-based-model.github.io/compositional-generation-inference/">compositional</a> <a href="https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models"/>generative</a> <a href="https://energy-based-model.github.io/reduce-reuse-recycle/">models</a> which can both compositionally generate <a href="https://www.biorxiv.org/content/10.1101/2022.12.21.521521v1">novel outputs</a> and <a href="https://energy-based-model.github.io/unsupervised-concept-discovery/">compositionally</a> <a href="https://energy-based-model.github.io/comet/">understand</a> the world. My work has further focused on how such compositional models may be applied to <a href="https://anuragajay.github.io/decision-diffuser/">trajectory</a> <a href="https://arxiv.org/pdf/1909.06878.pdf">planning</a>, enabling <a href="https://diffusion-planning.github.io/">flexible adaptation to novel goals and rewards</a> across both <a href="https://universal-policy.github.io/unipi/">synthesized videos</a> and on the <a href="https://diffusion-policy.cs.columbia.edu/">real robotic settings</a>. Finally, my work has focused on the interpretation of large pretrained models as energy functions, enabling flexible ad-hoc compositions of different pretrained models at prediction time, enabling both hierarchical reasoning and <a href="https://energy-based-model.github.io/composing-pretrained-models-web/">multimodal perception</a>. 
+            More broadly, I am interested in constructing a <a href="https://en.wikipedia.org/wiki/Pandemonium_architecture">decentralized autonomous architecture</a> for decision making, consisting of a <a href="https://github.com/composable-models/llm_multiagent_debate">society</a> of different multimodal models, each with separate responsibilities such as <a href="https://kelinyu.github.io/ndf/">3D</a> <a href="https://kelinyu.github.io/wide_baseline/">perception</a>, <a href="https://kelinyu.github.io/obm">memory</a>, and <a href="https://www.andrew.cmu.edu/user/afluo/Neural_Acoustic_Fields/">auditory understanding</a>, which jointly cooperate to make decisions in an environment.
+            </p>
+
+            <h5 class="subtitle">News</h5>
+            <ul>
+                <li>I am looking for academic positions this upcoming year! Would love to chat more if you think I would be a good fit for your department.  </li>
+                <li>I gave a recent talk at Nuro summarizing some of my recent works recorded <a href="https://www.youtube.com/watch?v=As93L2pwR-E">here</a>. </li>
+                <li>We are organizing a workshop on <a href="https://sites.google.com/view/fmdm-neurips/">large pretrained models for decision making</a> at NeurIPS 2022. </li>
+                <li>Check out a list of our work on <a href="https://energy-based-model.github.io/">energy-based models!</a></li>
+            </ul>
+
+            <h5 class="subtitle">Research Highlights</h5>
+            <ul>
+                <li><b>Generative Modeling</b>: constructing generative models of the world's structure which may be combined and adapted. </li>
+                <li><b>Perception and Scene Understanding</b>: inferring structured representations of the world for downstream embodied tasks. </li>
+                <li><b>Interactive Learning</b>: building intelligent agents which may interact in the surrounding world.</li>
+            </ul> -->
+        </div>
+
+        <div id="main-pub-container">
+            <h5 class="subtitle">Publications
+            <!-- (
+                <a id="publication-by-selected" href="javascript:;", onClick="publicationBySelected();">show selected</a> /
+                <a id="publication-by-date" href="javascript:;", onClick="publicationByDate();">show all by date</a> /
+                <a id="publication-by-topic" href="javascript:;", onClick="publicationByTopic();">show all by topic</a>
+            )
+            </h5>
+            <p class="subtitle-aux"><span class="bold">Topics:</span>
+                <a href="#topic-generative-model" onClick="return publicationByTopicSpecific(this)" data-topic="generative-model">Generative Modeling</a> /
+                <a href="#topic-perception" onClick="return publicationByTopicSpecific(this)" data-topic="perception">Perception and Scene Understanding</a> /
+                <a href="#topic-rl" onClick="return publicationByTopicSpecific(this)" data-topic="rl">Interactive Learning</a>
+                <span class="note">(* indicates equal contribution and <sup>†</sup> indicates equal advising)</span>
+            </p> -->
+
+            <div id="main-pub-card-container" class="hide">
+                <div class="pub-card" data-year="2023" data-selected="true">
+                    <div class="row">
+                        <div class="col-l col-xs-12 col-lg-3">
+                            <img src="data/projects/transformer.png" width="100%"/>
+                        </div>
+                        <div class="col-r col-xs-12 col-lg-9">
+                            <div class="pub-card-body">
+                                <h5 class="title">Learning Generalizable Vision-Tactile Robotic Grasping Strategy for Deformable Objects via Transformer</h5>
+                                <h6 class="authors">
+                                    <a href="https://y8han.github.io/">Yunhai Han</a>,
+                                    <u>Kelin Yu</u>,
+                                    <a>Rahul Batra</a>,
+                                    <a>Nathan Boyd</a>,
+                                    <a>Chaitanya Mehta</a>,
+                                    <a href="https://www.isye.gatech.edu/users/tuo-zhao">Tuo Zhao</a>,
+                                    <a href="https://www.purduemars.com/">Yu She</a>,
+                                    <a href="https://faculty.cc.gatech.edu/~seth/">Seth Hutchinson</a>,
+                                    <a href="https://sites.google.com/site/yezhaout">Ye Zhao</a>
+                                </h6>
+                                <p class="info">
+                                    <span class="conference">Under Review by TMech 2023</span> /
+                                    <!-- <a href="https://composable-models.github.io/llm_debate/">Website</a> / -->
+                                    <a href="https://arxiv.org/abs/2112.06374">Paper</a> /
+                                    <a href="https://github.com/GTLIDAR/DeformableObjectsGrasping/tree/master/src/grasping_framework">Code</a> 
+                                </p>
+                                Reliable robotic grasping with deformable objects remains a challenging task due to underactuated contact interactions with a gripper, unknown object dynamics, and variable object geometries. In this study, we propose a Transformer-based robot grasping framework for rigid grippers that leverage tactile information from a GelSight sensor for safe object grasping. The Transformer network learns physical feature embeddings from visual & tactile feedback and predict a final grasp through a multilayer perceptron (MLP) with grasping strength. Using these predictions, the gripper is commanded with an optimal force for safe grasping tasks.
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card" data-year="2023" data-selected="true">
+                    <div class="row">
+                        <div class="col-l col-xs-12 col-lg-3">
+                            <img src="data/projects/drl.png" width="100%"/>
+                        </div>
+                        <div class="col-r col-xs-12 col-lg-9">
+                            <div class="pub-card-body">
+                                <h5 class="title">Evolutionary Curriculum Training for DRL-Based Navigation Systems</h5>
+                                <h6 class="authors">
+                                    <u>Kelin Yu*</u>,
+                                    <a>Max Asselmeier*</a>,
+                                    <a>Zhaoyi Li*</a>,
+                                    <a href="https://faculty.cc.gatech.edu/~danfei/">Danfei Xu</a>
+                                </h6>
+                                <p class="info">
+                                    <span class="conference">RSS MultiAct Workshop 2023</span> /
+                                    <a href="https://sites.google.com/view/hierarchical-navigation">Website</a> /
+                                    <a href="https://arxiv.org/abs/2306.08870">Paper</a> /
+                                    <!-- <a href="https://github.com/GTLIDAR/DeformableObjectsGrasping/tree/master/src/grasping_framework">Code</a>  -->
+                                </p>
+                                Deep Reinforcement Learning (DRL) has emerged as a promising method for robot collision avoidance. However, such DRL models often come with limitations, such as adapting effectively to structured environments containing various pedestrians. To address these challenges, this paper introduces a novel approach called evolutionary curriculum training to tackle these challenges. The primary goal of evolutionary curriculum training is to evaluate the collision avoidance model's competency in various scenarios and create curricula to enhance its insufficient skills. The paper introduces an innovative evaluation technique to assess the DRL model's performance in navigating structured maps and avoiding dynamic obstacles. Additionally, an evolutionary training environment generates all the curriculum to improve the DRL model's inadequate skills tested in the previous evaluation.
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pub-card" data-year="2023" data-selected="true">
+                    <div class="row">
+                        <div class="col-l col-xs-12 col-lg-3">
+                            <img src="data/projects/nlp.png" width="100%"/>
+                        </div>
+                        <div class="col-r col-xs-12 col-lg-9">
+                            <div class="pub-card-body">
+                                <h5 class="title">Temporal Video-Language Alignment Network for Reward Shaping in Reinforcement Learning</h5>
+                                <h6 class="authors">
+                                    <u>Kelin Yu*</u>,
+                                    <a>Ziyuan Cao*</a>,
+                                    <a>Reshma Ramachandra*</a>,
+                                </h6>
+                                <p class="info">
+                                    <span class="conference">Technical Report 2022</span> /
+                                    <!-- <a href="https://sites.google.com/view/hierarchical-navigation">Website</a> / -->
+                                    <a href="https://arxiv.org/abs/2302.03954">Paper</a> /
+                                    <!-- <a href="https://github.com/GTLIDAR/DeformableObjectsGrasping/tree/master/src/grasping_framework">Code</a>  -->
+                                </p>
+                                Designing appropriate reward functions for Reinforcement Learning (RL) approaches has been a significant problem. Utilizing natural language instructions to provide intermediate rewards to RL agents in a process known as reward shaping can help the agent in reaching the goal state faster. In this work, we propose a natural language-based reward-shaping approach that maps trajectories from Montezuma's Revenge game environment to corresponding natural language instructions using an extension of the LanguagE-Action Reward Network (LEARN) framework. These trajectory-language mappings are further used to generate intermediate rewards which are integrated into reward functions that can be utilized to learn an optimal policy for any standard RL algorithms. 
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <h5 class="subtitle">In progress<div data-year="2023" data-selected="true">
+                <div class="pub-card" data-year="2023" data-selected="true">
+                    <div class="row">
+                        <div class="col-l col-xs-12 col-lg-3">
+                            <img src="data/projects/insert.png" width="100%"/>
+                        </div>
+                        <div class="col-r col-xs-12 col-lg-9">
+                            <div class="pub-card-body">
+                                <h5 class="title">MimicTouch: Learning from Human Demostration with High Quality Tactile Feedback</h5>
+                                <!-- <h6 class="authors">
+                                    <u>Kelin Yu*</u>,
+                                    <a>Faiza Yousuf*</a>,
+                                    <a>Wei Xiong Toh*</a>,
+                                    <a>Yunchu Feng*</a>,
+                                </h6> -->
+                                <p class="info">
+                                    <span class="conference">Plan to Submit to RA-L 2023</span> /
+                                    <!-- <a href="https://eceseniordesign2022spring.ece.gatech.edu/sd22p37/">Website</a> / -->
+                                    <!-- <a href="https://arxiv.org/abs/2302.03954">Paper</a> / -->
+                                    <!-- <a href="https://github.com/GTLIDAR/DeformableObjectsGrasping/tree/master/src/grasping_framework">Code</a>  -->
+                                </p>
+                                This work uses a human demonstration dataset with tactile data to learn to complete complex manipulation tasks. It is currently in progress. It is planned to be submitted to RA-L as the first author
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <h5 class="subtitle">Projects<div data-year="2023" data-selected="true">
+                <div class="pub-card" data-year="2023" data-selected="true">
+                    <div class="row">
+                        <div class="col-l col-xs-12 col-lg-3">
+                            <img src="data/projects/parkinglot.png" width="100%"/>
+                        </div>
+                        <div class="col-r col-xs-12 col-lg-9">
+                            <div class="pub-card-body">
+                                <h5 class="title">iValet An Intelligent Parking Lot Management System and Interface</h5>
+                                <h6 class="authors">
+                                    <u>Kelin Yu*</u>,
+                                    <a>Faiza Yousuf*</a>,
+                                    <a>Wei Xiong Toh*</a>,
+                                    <a>Yunchu Feng*</a>,
+                                </h6>
+                                <p class="info">
+                                    <span class="conference">Senior Design 2022</span> /
+                                    <a href="https://eceseniordesign2022spring.ece.gatech.edu/sd22p37/">Website</a> /
+                                    <!-- <a href="https://arxiv.org/abs/2302.03954">Paper</a> / -->
+                                    <!-- <a href="https://github.com/GTLIDAR/DeformableObjectsGrasping/tree/master/src/grasping_framework">Code</a>  -->
+                                </p>
+                                The iValet intelligent parking lot management system automatically directs drivers to the nearest vacant parking spot upon entering a crowded parking lot. The system consists of a camera, machine learning development board, a PostgreSQL server, and a user interface (web application). The camera is used to take photos of the entire parking lot, the development board runs segmentation and classification algorithms on those photos, the SQL server contains data about each parking spot that is written to by the image processing models, a path-planning algorithm, and the UI, while the web application shows end users the directions to the empty parking spots based on the location of the parking lot entrance.                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="copyright">
+                    Background photo: Blue Spaces. Website template from <a href="https://yilundu.github.io/">Yilun Du</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script type="text/javascript" src="static/js/jquery.color.min.js"></script>
+<script type="text/javascript">
+
+$.fn.isInViewport = function() {
+    var elementTop = $(this).offset().top;
+    var elementBottom = elementTop + $(this).outerHeight();
+    var viewportTop = $(window).scrollTop();
+    var viewportBottom = viewportTop + $(window).height();
+    return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+
+var allPublications = null;
+
+$(function() {
+    getRealSize = function(bgImg) {
+        var img = new Image();
+        img.src = bgImg.attr("src");
+        var width = img.width,
+            height = img.height;
+        return {
+            width: width,
+            height: height
+        }
+    };
+
+    getRealWindowSize = function() {
+        var winWidth = null,
+            winHeight = null;
+        if (window.innerWidth) winWidth = window.innerWidth;
+        else if ((document.body) && (document.body.clientWidth)) winWidth = document.body.clientWidth;
+        if (window.innerHeight) winHeight = window.innerHeight;
+        else if ((document.body) && (document.body.clientHeight)) winHeight = document.body.clientHeight;
+        if (document.documentElement && document.documentElement.clientHeight && document.documentElement.clientWidth) {
+            winHeight = document.documentElement.clientHeight;
+            winWidth = document.documentElement.clientWidth
+        }
+        return {
+            width: winWidth,
+            height: winHeight
+        }
+    };
+
+    fullBg = function() {
+        var bgImg = $("#background");
+        var mainContainer = $("#main");
+        var firstFire = null;
+
+        function resizeImg() {
+            var realSize = getRealSize(bgImg);
+            var imgWidth = realSize.width;
+            var imgHeight = realSize.height;
+
+            if (imgWidth == 0 || imgHeight == 0) {
+                setTimeout(function() {
+                    resizeImg();
+                }, 200);
+            }
+
+            console.log(realSize);
+            var realWinSize = getRealWindowSize();
+            var winWidth = realWinSize.width;
+            var winHeight = realWinSize.height;
+            var widthRatio = winWidth / imgWidth;
+            var heightRatio = winHeight / imgHeight;
+            console.log(realWinSize);
+            if (widthRatio > heightRatio) {
+                bgImg.width(imgWidth * widthRatio + 'px').height(imgHeight * widthRatio + 'px').css({'top':
+                    -(imgHeight * widthRatio - winHeight) / 10 * 5 + 'px', 'left': '0'})
+            } else {
+                bgImg.width(imgWidth * heightRatio + 'px').height(imgHeight * heightRatio + 'px').css({'left':
+                    -(imgWidth * heightRatio - winWidth) / 10 * 3 + 'px', 'top': '0'})
+            }
+            // mainContainer.css({
+            //     width: winWidth,
+            //     height: winHeight
+            // });
+        }
+
+        resizeImg();
+        window.onresize = function() {
+            if (firstFire === null) {
+                firstFire = setTimeout(function() {
+                    resizeImg();
+                    firstFire = null
+                }, 100)
+            }
+        }
+    };
+
+    targetColor = $("#main-content-container .col-info .name").css("color");
+    animatedLink = function(speed) {
+        $("#main-content-container .col-link li").hover(function() {
+            // $(this).find('.icon').animate({
+            //     color: targetColor,
+            //     borderColor: targetColor
+            // }, speed);
+            $(this).find('.caption').animate({
+                color: targetColor
+            })
+        }, function() {
+            // $(this).find('.icon').animate({
+            //     borderColor: '#cccccc',
+            //     color: '#cccccc'
+            // }, speed);
+            $(this).find('.caption').animate({
+                color: '#cccccc'
+            })
+        })
+    };
+
+    fullBg();
+    animatedLink(400);
+
+    allPublications = $("#main-pub-card-container .pub-card");
+    allTopicsLink = $("#main-pub-container .subtitle-aux a");
+    allTopics = [];
+    for (var topicId = 0; topicId < allTopicsLink.length; topicId++) {
+        allTopics.push({name: $(allTopicsLink[topicId]).data("topic"), title: $(allTopicsLink[topicId]).html()});
+    }
+
+    // $("#publication-by-selected").click();
+    // // $("#publication-by-date").click();
+    $("#main-pub-card-container").removeClass("hide");
+});
+</script>
+</body>
+</html>
